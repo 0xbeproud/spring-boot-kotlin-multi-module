@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: demo-app-api
+
+logging:
+  level:
+    jdbc:
+      sqltiming: 'off'
+      audit: 'off'
+      connection: 'off'
+      resultset: 'off'
+      resultsettable: 'off'
+      sqlonly: info
+    org.springframework:
+      security: error
+    com:
+      another: info

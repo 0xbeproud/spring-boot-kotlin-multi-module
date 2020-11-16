@@ -1,0 +1,14 @@
+package com.another.demoappapi.controller
+
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RestController
+
+
+@RestController
+@RequestMapping
+class InfoController(
+) {
+    @GetMapping("/info")
+    fun getInfo() = "ok"
+}
