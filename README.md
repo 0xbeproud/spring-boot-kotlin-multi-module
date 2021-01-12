@@ -1,3 +1,5 @@
+멀티 모듈을 위한 기본 설정
+
 https://woowabros.github.io/study/2019/07/01/multi-module.html
 
 https://github.com/ihoneymon/multi-module
