@@ -1,14 +1,16 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+// https://doughman.tistory.com/19
 plugins {
-    id("org.springframework.boot") version "2.2.6.RELEASE" apply false
-    id("io.spring.dependency-management") version "1.0.9.RELEASE"
+    id("org.springframework.boot") apply false
+    id("io.spring.dependency-management")
 
-    kotlin("jvm") version "1.3.71"
-    kotlin("kapt") version "1.3.71" apply false
-    kotlin("plugin.allopen") version "1.3.71" apply false
-    kotlin("plugin.noarg") version "1.3.71" apply false
-    kotlin("plugin.spring") version "1.3.71" apply false
+    kotlin("jvm")
+    kotlin("kapt")
+    kotlin("plugin.spring") apply false
+
+    kotlin("plugin.allopen") apply false
+    kotlin("plugin.noarg") apply false
 }
 
 repositories {

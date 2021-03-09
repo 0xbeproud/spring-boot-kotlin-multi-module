@@ -5,6 +5,7 @@ plugins {
     kotlin("plugin.allopen")
     kotlin("plugin.noarg")
 }
+
 tasks {
     withType<BootJar> {
         enabled = false
@@ -14,6 +15,7 @@ tasks {
         enabled = true
     }
 }
+
 dependencies {
     implementation(project(":demo-core"))
 
